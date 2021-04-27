@@ -7,5 +7,7 @@ namespace SetGame
 {
     public class Game
     {
+        public Unknown NewRound(Unknown);
+        private Unknown<GameRound> gameRounds;
     }
 }

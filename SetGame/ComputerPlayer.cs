@@ -5,7 +5,8 @@ using System.Threading.Tasks;
 
 namespace SetGame
 {
-    public class ComputerPlayer
+    public class ComputerPlayer : Player
     {
+        public Unknown SearchTabletop(Unknown);
     }
 }
