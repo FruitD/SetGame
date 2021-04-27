@@ -7,5 +7,19 @@ namespace SetGame
 {
     public class Set
     {
+        public List<Card> SetCardList()
+        {
+            return null;
+        }
+
+        public void SetSearchTime()
+        {
+            return;
+        }
+
+        public bool IsValid()
+        {
+            return true;
+        }
     }
 }
