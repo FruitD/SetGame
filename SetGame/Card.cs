@@ -7,10 +7,32 @@ namespace SetGame
 {
     public struct Card
     {
-        public Enum Shape;
-        public Enum color;
-        public Enum shade;
-        public Enum number;
+        public enum Shape
+        {
+            Squiggle,
+            Oval,
+            Diamond            
+        }
+        
+        public enum Color
+        {
+            Red,
+            Purple,
+            Green
+        }
+        
+        public enum Shading
+        {
+            Solid,
+            Striped,
+            Outlined
+        }
 
+        public enum Number
+        {
+            One,
+            Two,
+            Three
+        }
     }
 }
