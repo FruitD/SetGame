@@ -17,8 +17,14 @@ namespace SetGame
             return;
         }
 
-        public bool IsValid()
+        public bool IsValid(List<Card> test)
         {
+            for (int i = 0; i <= 3; i++)
+            {
+                if test[i].Color= Card.Color.Green;
+            }
+
+            }
             return true;
         }
     }
